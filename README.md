@@ -1,3 +1,3 @@
 کامپیدان
-  compidan.ir 
+  https://compidan.ir 
   https://t.me/compidan
