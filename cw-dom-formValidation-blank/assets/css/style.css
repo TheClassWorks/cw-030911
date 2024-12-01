@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad, "Roboto";
+}
+body {
+  /* background-image: linear-gradient(to Right, rgb(136, 241, 136), rgb(82, 187, 82)); */
+  background-image: radial-gradient(circle, rgb(175, 240, 175), rgb(76, 161, 76));
+  /* background-color: rgb(136, 241, 136); */
+}
+.loginform {
+  width: 400px;
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 3%;
+  box-shadow: 1px 1px 14px 0px #afa3a3;
+}
+.loginform input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #efefef;
+  padding: 10px;
+  margin-top: 10px;
+}
+.loginform .button {
+  background-color: rgb(113, 214, 113);
+  cursor: pointer;
+  color: #fff;
+}
+.loginform .button:hover {
+  background-color: rgb(76, 161, 76);
+}
+.loginform p {
+  font-size: small;
+  padding-top: 10px;
+  text-align: center;
+}
+.loginform p a:hover {
+  text-decoration: underline;
+  color: rgb(113, 214, 113);
+}
+.LoginMsg {
+  color: red;
+  text-align: center;
+  visibility: hidden;
+}
+
+/*  // را گذاشتم برای تست حالتی که باکس از بالا به پایین میاد box این  */
+.box {
+  background-color: #fff;
+  width: 20rem;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-100vh);
+  opacity: 0;
+}
+.pass {
+  display: flex;
+  justify-content: left;
+}
+i {
+  position: fixed;
+  margin-top: 25px;
+  margin-left: 12px;
+  cursor: pointer;
+}

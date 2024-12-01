@@ -8,4 +8,39 @@
   box-sizing: border-box;
   direction: rtl;
   font-family: estedad;
+  scroll-behavior: smooth;
+}
+.sec {
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+.to-top {
+  border-radius: 100%;
+  background-color: gray;
+  width: 50px;
+  height: 50px;
+
+  position: fixed;
+  right: 25px;
+  bottom: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+
+  transition: all 0.4s ease-in-out;
+}
+
+.to-top.active {
+  opacity: 1;
+  bottom: 50px;
+}
+
+.to-top:hover {
+  background-color: rgb(90, 89, 89);
+  color: azure;
 }
